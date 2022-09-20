@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
+  <title>About</title>
   <style>
-    #contents {
-      text-align: center;
+    
+    body {
       margin: 0;
     }
     #header {
@@ -32,7 +32,7 @@
       color: black;
     }
     #header a:hover {
-      background-color: rgb(244, 244, 166, 50%);
+      background-color: rgba(109, 109, 100, 0.5);
       border-radius: 25%;
     }
     img {
@@ -42,15 +42,17 @@
     }
     #contents {
       margin: 0 10%;
+      text-align: center;
     }
-    #contents ul {
+    #bottom {
+      margin: 0 10%;
+    }
+    #bottom ul {
       list-style: none;
-      padding: 0;
-    }
-    #contents li {
       padding-block: 20px;
-    }
-    
+    } 
+
+
 
   </style>
 </head>
@@ -64,15 +66,35 @@
   </div>
   <img src="./Hello.jpg" alt="hello">
   <div id="contents">
-    <h1>Home</h1>
-    <p>안녕하세요.<br><br>유동균의 홈페이지입니다.</p>
+    <h1>About</h1>
+    <p>안녕하세요.<br><br>저는 안양에 살고 있는 27살 유동균 입니다.</p>
+    <p>현재 안양 코딩학원에서 수강중 입니다.</p>
+    <p>열심히 수강하겠습니다.</p>
+  </div>
+  <div id="bottom">
     <hr>
-    <h2>연락처</h2>
+    <h2>직무능력</h2>
     <ul>
-      <li>휴대폰 : 010-0000-0000</li>
-      <li>이메일 : asdf@naver.com</li>
-      <li>주소 : 경기도 안양시 만안구</li>
+      <li>Language
+        <ul>
+          <li>HTML</li>
+          <progress value="50" max="100"></progress>
+          <li>CSS</li>
+          <progress value="50" max="100"></progress>
+          <li>JAVASCRIPT</li>
+          <progress value="50" max="100"></progress>
+        </ul>
+      </li>
+      <li>Design
+        <ul>
+          <li>Figma</li>
+          <progress value="50" max="100"></progress>
+          <li>Photoshop</li>
+          <progress value="50" max="100"></progress>
+        </ul>
+      </li>
     </ul>
+  </div>
   </div>
 
 </body>
